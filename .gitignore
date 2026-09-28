@@ -1,0 +1,12 @@
+# Large dataset - keep it on Google Drive
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Log files
+logs/*.log
