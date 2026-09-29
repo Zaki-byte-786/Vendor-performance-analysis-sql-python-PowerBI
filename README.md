@@ -134,18 +134,18 @@ vendor-performance-analysis/
 ```bash
 git clone https://github.com/Zaki-byte-786/Vendor-performance-analysis-sql-python-PowerBI.git
 ```
-3. Load the CSVs and ingest into database:
+2. Load the CSVs and ingest into database:
 ```bash
 python scripts/ingestion_db.py
 ```
-4. Create vendor summary table:
+3. Create vendor summary table:
 ```bash
 python scripts/get_vendor_summary.py
 ```
-5. Open and run notebooks:
+4. Open and run notebooks:
    - `notebooks/exploratory_data_analysis.ipynb`
    - `notebooks/vendor_performance_analysis.ipynb`
-6. Open Power BI Dashboard:
+5. Open Power BI Dashboard:
    - `dashboard/vendor_performance_dashboard.pbix`
 
 ---
